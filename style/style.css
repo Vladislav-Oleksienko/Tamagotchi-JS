@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.game-name {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.tamagotchi-name {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.flex-direction {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-direction:first-child {
+  margin-top: 0px;
+}
+
+.button {
+  font-size: 30px;
+  display: block;
+  padding: 16px 32px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #e67e22;
+  border-radius: 9px;
+}
+
+#emoji {
+  text-align: center;
+}
+
+#score {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.button:hover {
+  background-color: #cf711f;
+}
+
+.values-names {
+  padding: 16px 32px;
+  margin-top: 20px;
+}
